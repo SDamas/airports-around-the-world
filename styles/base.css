@@ -5,7 +5,7 @@
 /* Application's background */
 body {
     background-image: url("../images/background.jpg");
-    background-size: cover;
+    background-repeat: no-repeat;
     font-family: var(--plus-jakarta-sans);
     
 }
