@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to AWW. A college project by Samad Damas, built on Javascript, with the intent to show 
+    how to fetch data from an external API. The data used is from docs.aviationAPI.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="js/scripts.js" defer></script>
+    <title>AWW - Airports Around the World</title>
+</head>
+<body>
+    <!-- Application's Container, used to center all application's content -->
+    <div id="applicationContainer">
+        <!-- Application's Content -->
+        <div id="applicationContent">
+            <h1>AWW - Airports Around the World</h1>
+            <div class="paragraph">
+                <p id="bold">Hello, welcome to AWW. A project made by Samad Damas.</p>
+                <p>This is a college project built on Javascript, with the intent to show how to fetch data from an external API. 
+                    The data used is from <span style="color: #0081C9">docs.aviationAPI.com</span>
+                </p>
+            </div>
+            <div class="paragraph">
+                <p>This is a dynamic webpage, and display data according to users interaction.</p>
+                <p>To test it out, try these identifiers:</p>
+            </div>
+            <section id="filterByContainer">
+                <div id="filterByContent">
+                    <div id="filterBy"><h4>Filter by:</h4></div>
+                    <div id="filterBySelectors">
+                        <div class="selector active">Name</div>
+                        <div class="selector">State</div>
+                        <div class="selector">City</div>
+                        <div class="selector">FFA</div>
+                        <div class="selector">ICAO</div>
+                        <div class="selector">Manager</div>
+                        <div class="selector">Coordinates</div>
+                    </div>
+                </div>
+            </section>
+            <section id="inputContainer">
+                <label>Identifier Code</label>
+                <input id="identifier" type="text" placeholder="Enter the aiport identifier">
+                <button id="submit">Submit</button>
+            </section>
+            <section id="tableContainer">
+                <section id="tableContent">
+                    <table>
+                        <tr>
+                            <th id="nameHead">Name</th>
+                            <th id="stateHead">State</th>
+                            <th id="cityHead">City</th>
+                            <th id="ffaHead">FFA</th>
+                            <th id="icaoHead">ICAO</th>
+                            <th id="managerHead">Manager</th>
+                            <th id="coordinatesHead">Coordinates</th>
+                        </tr>
+                        <tr>
+                            
+                        </tr>
+                    </table>
+                </section>
+            </section>
+            <footer>
+                <div id="footerContent">
+                    <span id="hashtag">#makethewebaccessible</span>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,138 @@
+:root {
+    --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+/* Application's background */
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    font-family: var(--plus-jakarta-sans);
+    
+}
+
+#applicationContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#applicationContent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#applicationContent h1 {
+    font-size: 3.75rem;
+    color: white;
+    font-family: var(--plus-jakarta-sans);
+    width: 50%;
+}
+
+.paragraph {
+    background-color: rgb(234,234,234, 0.8);
+    padding: 1.5rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    font-family: var(--plus-jakarta-sans);
+    font-size: 1rem;
+    width: 50%;
+    line-height: 1.7rem;
+}
+
+.paragraph p {
+    margin: 0;
+}
+
+#bold {
+    font-weight: 800;
+}
+
+#filterByContainer {
+    margin-bottom: 5rem;
+}
+
+#filterBy {
+    font-family: var(--plus-jakarta-sans);
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 800;
+    display: flex;
+    justify-content: left;
+    width: 39.1rem;
+}
+
+#filterBySelectors {
+    display: flex;
+    gap: 1rem;
+}
+
+.selector {
+    background-color: rgb(217,217,217,.3);
+    font-family: var(--plus-jakarta-sans);
+    color: #343434;
+    text-align: center;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.selector:hover {
+    cursor: pointer;
+}
+
+.selector.active {
+    background-color: rgb(217,217,217);
+}
+
+#inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: -2rem;
+}
+
+#identifier {
+    border-radius: 4px;
+    border: none;
+    height: 2rem;
+    padding: 0 1rem;
+    width: 13.5rem;
+}
+
+#submit {
+    width: 15.5rem;
+    height: 2rem;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+#submit:hover {
+    cursor: pointer;
+}
+
+#tableContainer {
+    margin-bottom: 6rem;
+}
+
+table tr {
+    background-color: #D9D9D9;
+    font-family: var(--plus-jakarta-sans);
+}
+
+table th, td {
+    padding: 1rem;
+}
+
+footer {
+    padding-bottom: 2.2rem;
+}
+
+#hashtag {
+    font-weight: 800;
+    color: white;
+    font-size: 1.25rem;
+}
